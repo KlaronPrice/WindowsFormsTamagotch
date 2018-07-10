@@ -28,23 +28,8 @@ namespace WindowsFormsTamagotch
             StartGame();
         }
 
-        async void Rotate()
-        {
-            while (true)
-            {
-                Thread.Sleep(500);
-                if (tamagotchiPictureBox.Image != null)
-                    tamagotchiPictureBox.Image.RotateFlip(RotateFlipType.RotateNoneFlipX);
-            }
-        }
-
         async void StartGame()
         {
-            //Task task = new Task(LifeTime);
-            //task.Start();          
-            //while (true)
-            //BeginInvoke(new Action(Rotate));
-            //new Task(Rotate).Start();
             await Task.Factory.StartNew(LifeTime);
             playButton.Enabled = false;
             cleanButton.Enabled = false;
@@ -59,16 +44,6 @@ namespace WindowsFormsTamagotch
             Random rand = new Random();
             while (!(tamagotchi.State is Tamagotchi.LostState))
             {
-                //for (int i = 0; i < 6; i++)
-                //{
-                //    Thread.Sleep(500);
-                //    if (tamagotchiPictureBox.Image != null)
-                //    {
-                //        tamagotchiPictureBox.Image.RotateFlip(RotateFlipType.RotateNoneFlipX);
-                //        BeginInvoke(new Action(tamagotchiPictureBox.Refresh));
-                //    }
-
-                //}
                 Thread.Sleep(2000);
                 lowerChar = rand.Next() % 3;
                 switch (lowerChar)
