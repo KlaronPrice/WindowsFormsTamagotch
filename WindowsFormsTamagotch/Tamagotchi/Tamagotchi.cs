@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WindowsFormsTamagotch.Tamagotchi
 {
@@ -13,8 +9,6 @@ namespace WindowsFormsTamagotch.Tamagotchi
         sbyte hunger;
 
         public TamagotchiState State { get; set; }
-        // 4 sostoyaniiya  1 убежал, 2 грустит, 3 нейтрален, 4 доволен, 5 счастлив из 2,3 можно перейти в 4, из 4 в 5, в 1 только из 2
-        //сигналы подавать наборами из характеристик тамагочи// вместо набора можно поставлять минимальную характеристику
 
         public sbyte Happy
         {

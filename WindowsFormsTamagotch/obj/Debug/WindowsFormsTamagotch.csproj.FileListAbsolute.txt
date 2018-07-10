@@ -1,10 +1,10 @@
 C:\Users\Грильяж-2\source\repos\WindowsFormsTamagotch\WindowsFormsTamagotch\bin\Debug\WindowsFormsTamagotch.exe.config
 C:\Users\Грильяж-2\source\repos\WindowsFormsTamagotch\WindowsFormsTamagotch\bin\Debug\WindowsFormsTamagotch.exe
 C:\Users\Грильяж-2\source\repos\WindowsFormsTamagotch\WindowsFormsTamagotch\bin\Debug\WindowsFormsTamagotch.pdb
-C:\Users\Грильяж-2\source\repos\WindowsFormsTamagotch\WindowsFormsTamagotch\obj\Debug\WindowsFormsTamagotch.csprojResolveAssemblyReference.cache
 C:\Users\Грильяж-2\source\repos\WindowsFormsTamagotch\WindowsFormsTamagotch\obj\Debug\WindowsFormsTamagotch.Properties.Resources.resources
 C:\Users\Грильяж-2\source\repos\WindowsFormsTamagotch\WindowsFormsTamagotch\obj\Debug\WindowsFormsTamagotch.csproj.GenerateResource.cache
 C:\Users\Грильяж-2\source\repos\WindowsFormsTamagotch\WindowsFormsTamagotch\obj\Debug\WindowsFormsTamagotch.csproj.CoreCompileInputs.cache
 C:\Users\Грильяж-2\source\repos\WindowsFormsTamagotch\WindowsFormsTamagotch\obj\Debug\WindowsFormsTamagotch.exe
 C:\Users\Грильяж-2\source\repos\WindowsFormsTamagotch\WindowsFormsTamagotch\obj\Debug\WindowsFormsTamagotch.pdb
 C:\Users\Грильяж-2\source\repos\WindowsFormsTamagotch\WindowsFormsTamagotch\obj\Debug\WindowsFormsTamagotch.TamagotchiForm.resources
+C:\Users\Грильяж-2\source\repos\WindowsFormsTamagotch\WindowsFormsTamagotch\obj\Debug\WindowsFormsTamagotch.csprojResolveAssemblyReference.cache

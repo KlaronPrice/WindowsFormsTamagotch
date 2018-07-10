@@ -113,7 +113,7 @@
             this.playButton.TabIndex = 7;
             this.playButton.Text = "Play";
             this.playButton.UseVisualStyleBackColor = true;
-            this.playButton.Click += new System.EventHandler(this.playButton_Click);
+            this.playButton.Click += new System.EventHandler(this.PlayButton_Click);
             // 
             // cleanButton
             // 
@@ -123,7 +123,7 @@
             this.cleanButton.TabIndex = 8;
             this.cleanButton.Text = "Clean";
             this.cleanButton.UseVisualStyleBackColor = true;
-            this.cleanButton.Click += new System.EventHandler(this.cleanButton_Click);
+            this.cleanButton.Click += new System.EventHandler(this.CleanButton_Click);
             // 
             // feedButton
             // 
@@ -133,7 +133,7 @@
             this.feedButton.TabIndex = 9;
             this.feedButton.Text = "Feed";
             this.feedButton.UseVisualStyleBackColor = true;
-            this.feedButton.Click += new System.EventHandler(this.feedButton_Click);
+            this.feedButton.Click += new System.EventHandler(this.FeedButton_Click);
             // 
             // TamagotchiForm
             // 
