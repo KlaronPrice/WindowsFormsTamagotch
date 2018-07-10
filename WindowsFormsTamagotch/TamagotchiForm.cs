@@ -1,4 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Windows.Forms;
@@ -19,19 +25,20 @@ namespace WindowsFormsTamagotch
             happinessProgressBar.Value = tamagotchi.Happy;
             cleanlinessProgressBar.Value = tamagotchi.Cleanliness;
             hungerProgressBar.Value = tamagotchi.Hunger;
-            StartTheGameAsync();
+            StartGame();
         }
 
-        async void StartTheGameAsync()
+        async void StartGame()
         {
             await Task.Factory.StartNew(LifeTime);
             playButton.Enabled = false;
             cleanButton.Enabled = false;
             feedButton.Enabled = false;
-            MessageBox.Show(@"Питомец сбежал!");
+            MessageBox.Show(@"Тамагочи сбежал!!!");
+
         }
 
-        void LifeTime()
+        bool LifeTime()
         {
             int lowerChar;
             Random rand = new Random();
@@ -56,21 +63,22 @@ namespace WindowsFormsTamagotch
                 }
                 RefreshTamagotchiImageBox();
             }
+            return false;
         }
 
-        private void PlayButton_Click(object sender, EventArgs e)
+        private void playButton_Click(object sender, EventArgs e)
         {
             tamagotchi.Happy += 1;
             happinessProgressBar.Value = tamagotchi.Happy;
             RefreshTamagotchiImageBox();
         }
-        private void CleanButton_Click(object sender, EventArgs e)
+        private void cleanButton_Click(object sender, EventArgs e)
         {
             tamagotchi.Cleanliness += 1;
             cleanlinessProgressBar.Value = tamagotchi.Cleanliness;
             RefreshTamagotchiImageBox();
         }
-        private void FeedButton_Click(object sender, EventArgs e)
+        private void feedButton_Click(object sender, EventArgs e)
         {
             tamagotchi.Hunger += 1;
             hungerProgressBar.Value = tamagotchi.Hunger;
