@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Windows.Forms;
@@ -66,19 +60,19 @@ namespace WindowsFormsTamagotch
             return false;
         }
 
-        private void playButton_Click(object sender, EventArgs e)
+        private void PlayButton_Click(object sender, EventArgs e)
         {
             tamagotchi.Happy += 1;
             happinessProgressBar.Value = tamagotchi.Happy;
             RefreshTamagotchiImageBox();
         }
-        private void cleanButton_Click(object sender, EventArgs e)
+        private void CleanButton_Click(object sender, EventArgs e)
         {
             tamagotchi.Cleanliness += 1;
             cleanlinessProgressBar.Value = tamagotchi.Cleanliness;
             RefreshTamagotchiImageBox();
         }
-        private void feedButton_Click(object sender, EventArgs e)
+        private void FeedButton_Click(object sender, EventArgs e)
         {
             tamagotchi.Hunger += 1;
             hungerProgressBar.Value = tamagotchi.Hunger;
